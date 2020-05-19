@@ -36,10 +36,10 @@ Route::namespace('Api')->group(function () {
     });
 
     Route::prefix('cities')->group(function () {
-        Route::get('/', 'cityController@index')->name('city.main');
-        Route::post('/', 'cityController@store')->name('city.store');
-        Route::get('/{id}', 'cityController@show')->name('city.show');
-        Route::put('/{id}', 'cityController@update')->name('city.update');
-        Route::delete('/{id}', 'cityController@destroy')->name('city.destroy');
+        Route::get('/', 'CityController@index')->name('city.main');
+        Route::post('/', 'CityController@store')->name('city.store');
+        Route::get('/{id}', 'CityController@show')->name('city.show');
+        Route::put('/{id}', 'CityController@update')->name('city.update');
+        Route::delete('/{id}', 'CityController@destroy')->name('city.destroy');
     });
 });
