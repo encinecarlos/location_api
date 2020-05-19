@@ -41,21 +41,13 @@
         </div>
     </div>
 
-    <div class="row mt-5 text-center">
-        <div class="col-6">
-
-        </div>
-        <div class="col-6">
-
-        </div>
-    </div>
     <div class="row mt-2">
         {{--<h4 class="text-purple">Simple request to API</h4>--}}
         <div class="col-sm-12 col-md-6">
             <pre>
                 <code class="language-bash">
     # Simple request to API
-    GET /api/countries/100
+    GET https://location.carlosencine.com/api/countries/100
                 </code>
             </pre>
         </div>
@@ -90,7 +82,7 @@
         <div class="col-sm-12 col-md-6">
             <pre>
                 <code class="language-bash">
-    GET /api/countries
+    GET https://location.carlosencine.com/api/countries
                 </code>
             </pre>
         </div>
@@ -196,7 +188,7 @@
         <div class="col-sm-12 col-md-6">
             <pre>
                 <code class="language-bash">
-    GET /api/countries/210
+    GET https://location.carlosencine.com/api/countries/210
                 </code>
             </pre>
         </div>
@@ -229,7 +221,7 @@
         <div class="col-sm-12 col-md-6">
             <pre>
                 <code class="language-bash">
-    GET /api/states
+    GET https://location.carlosencine.com/api/states
                 </code>
             </pre>
         </div>
@@ -325,7 +317,7 @@
         <div class="col-sm-12 col-md-6">
             <pre>
                 <code class="language-bash">
-    GET /api/states/10
+    GET https://location.carlosencine.com/api/states/10
                 </code>
             </pre>
         </div>
@@ -357,7 +349,7 @@
         <div class="col-sm-12 col-md-6">
             <pre>
                 <code class="language-bash">
-    GET /api/cities
+    GET https://location.carlosencine.com/api/cities
                 </code>
             </pre>
         </div>
@@ -461,7 +453,7 @@
         <div class="col-sm-12 col-md-6">
             <pre>
                 <code class="language-bash">
-    GET /api/cities/1000
+    GET https://location.carlosencine.com/api/cities/1000
                 </code>
             </pre>
         </div>
